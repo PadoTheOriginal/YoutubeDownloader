@@ -1,2 +1,4 @@
 __pycache__/
 .idea/
+YtExtraFiles/data.pickle
+YtExtraFiles/ffmpeg.exe
