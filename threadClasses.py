@@ -2,7 +2,7 @@ from PyQt5.QtCore import QThread, pyqtSignal
 import webscrapping as wb
 import re
 import gc
-from youtube_dl import YoutubeDL
+from yt_dlp import YoutubeDL
 from pyperclip import paste
 import math
 from time import sleep

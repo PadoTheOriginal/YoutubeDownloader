@@ -24,7 +24,7 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
     queue_path = ""
     ydl_opts = {
         "format": "bestaudio/best",
-        "quiet": True,
+        "quiet": False,
         "outtmpl": queue_path,
         "postprocessors": [{
             "key": "FFmpegExtractAudio",
@@ -35,7 +35,7 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
         "ignoreerrors": True,
         "continue": True,
         "nooverwrites": True,
-        "no_warnings": True,
+        "no_warnings": False,
         "keepvideo": False
     }
 

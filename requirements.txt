@@ -4,3 +4,4 @@ PyQt5
 youtube_dl
 wheel
 python-youtube
+yt_dlp
