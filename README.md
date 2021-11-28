@@ -15,3 +15,4 @@
    depois de baixado é necessário colocar ffmpeg.exe dentro da pasta YtExtraFiles/
 
 E finalmente o programa deve funcionar.
+e agora seria apenas rodar o main.py com 'py main.py' ou 'python main.py'
