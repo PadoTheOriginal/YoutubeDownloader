@@ -1,0 +1,22 @@
+ATENÇÃO: se já tiver instalado uma versão antiga do YtDownloader,
+desinstale antes de instalar essa.
+
+Novidades do Youtube downloader 7.0v:
+
+- Em geral performace aumentou muito.
+
+- Novo design mais simples e fácil de entender.
+
+- Mais leve.
+
+- Salva as ultimas pastas utilizadas.
+
+- Inicia mais rápido.
+
+- Muitos bugs arrumados.
+
+- Agora pode se baixar não só do youtube, mas como de quase qualquer site na internet.
+Normalmente sites em que se precisa pagar algo não te permite baixar videos de lá.
+
+EX: DE ONDE NÃO PODE BAIXAR: Netflix, Crunchyroll e etc...
+EX: DE ONDE SE PODE BAIXAR: Twitter, Facebook, Twitch e etc...

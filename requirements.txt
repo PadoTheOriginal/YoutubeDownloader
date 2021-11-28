@@ -1,0 +1,6 @@
+hurry.filesize
+pyperclip
+PyQt5
+youtube_dl
+wheel
+python-youtube

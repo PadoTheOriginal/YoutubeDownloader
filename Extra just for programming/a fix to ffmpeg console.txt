@@ -1,0 +1,7 @@
+add to subprocess on ffmpeg.py and (utils.py on check exe methods)
+		
+		startupinfo = subprocess.STARTUPINFO()
+        startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+		
+		ON FUNCTION PARAMETERS>
+        startupinfo=startupinfo
