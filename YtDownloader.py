@@ -24,7 +24,7 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
     queue_path = ""
     ydl_opts = {
         "format": "bestaudio/best",
-        "quiet": False,
+        "quiet": True,
         "outtmpl": queue_path,
         "postprocessors": [{
             "key": "FFmpegExtractAudio",
@@ -35,7 +35,7 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
         "ignoreerrors": True,
         "continue": True,
         "nooverwrites": True,
-        "no_warnings": False,
+        "no_warnings": True,
         "keepvideo": False
     }
 
@@ -103,7 +103,8 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
             self.folders_box.setCurrentText(self.queue_path)
 
         except Exception as e:
-            print(e)
+            #print(e)
+            pass
 
         if self.on_front:
             self.window_on_front()
