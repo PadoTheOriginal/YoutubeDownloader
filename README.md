@@ -1,5 +1,5 @@
  - Para instalar primeiro garantir que python está instalado em sua
-   máquina, que que pode rodar pip no terminal.
+   máquina, e que pode rodar pip no terminal.
    
  - Depois clonar repositório.
 
