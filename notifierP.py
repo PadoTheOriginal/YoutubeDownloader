@@ -68,7 +68,13 @@ class Notification(QWidget):
     # ""
     def on_clicked(self):
         self.mainLayout.removeWidget(self.sender().parent())
-        self.sender().parent().deleteLater()
+        
+        # if self.sender().parent() is not None:
+        #     self.sender().parent().deleteLater()
+
+        # else:
+        #     self.mainLayout.clearLayout(self.sender().parent())
+
         self.nMessages -= 1
         self.adjustSize()
         if self.nMessages == 0:
