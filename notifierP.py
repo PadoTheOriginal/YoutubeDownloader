@@ -63,7 +63,7 @@ class Notification(QWidget):
         self.nMessages += 1
         self.show()
         width = self.frameGeometry().width()
-        self.move(self.screenWidth - width - 20, 20)
+        self.move(self.screenWidth - width - 30, 30)
 
     # ""
     def on_clicked(self):

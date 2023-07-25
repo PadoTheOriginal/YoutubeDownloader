@@ -1,0 +1,8 @@
+how to convert to executable
+you will need pyinstaller
+to make sure the executable doesn't crash you have to make sure that nothing requires a terminal
+-F means in one file
+-w means without a terminal window
+-i is the path for the icon of the executable
+
+pyinstaller -F -w -i ./YtExtraFiles/YtDownloader.ico main.py

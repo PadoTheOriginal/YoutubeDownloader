@@ -33,7 +33,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>YtExtraFiles/YtDownloader.png</normaloff>YtExtraFiles/YtDownloader.png</iconset>
+    <normaloff>C:/Users/Pado/.designer/backup/YtExtraFiles/YtDownloader.png</normaloff>C:/Users/Pado/.designer/backup/YtExtraFiles/YtDownloader.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);
@@ -301,16 +301,30 @@ outline: none;
             </property>
             <property name="styleSheet">
              <string notr="true">QToolTip {
-color: white;
+color: black;
 }
  * {
-background-color: #202020;
-color: rgb(200, 200, 200);
+background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);
 }
+
 </string>
             </property>
             <property name="text">
-             <string notr="true">Baixar</string>
+             <string notr="true"/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>YtExtraFiles/download.png</normaloff>YtExtraFiles/download.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -354,11 +368,11 @@ color: rgb(200, 200, 200);
          <property name="cornerButtonEnabled">
           <bool>false</bool>
          </property>
-         <attribute name="horizontalHeaderMinimumSectionSize">
-          <number>0</number>
-         </attribute>
          <attribute name="horizontalHeaderDefaultSectionSize">
           <number>112</number>
+         </attribute>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>0</number>
          </attribute>
          <attribute name="verticalHeaderVisible">
           <bool>false</bool>
@@ -556,7 +570,7 @@ color: rgb(255, 255, 255);
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>YtExtraFiles/folder.ico</normaloff>YtExtraFiles/folder.ico</iconset>
+              <normaloff>C:/Users/Pado/.designer/backup/YtExtraFiles/folder.ico</normaloff>C:/Users/Pado/.designer/backup/YtExtraFiles/folder.ico</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -630,7 +644,7 @@ outline: none;
      <x>0</x>
      <y>0</y>
      <width>585</width>
-     <height>24</height>
+     <height>23</height>
     </rect>
    </property>
    <property name="styleSheet">

@@ -5,3 +5,7 @@ add to subprocess on ffmpeg.py and (utils.py on check exe methods)
 		
 		ON FUNCTION PARAMETERS>
         startupinfo=startupinfo
+
+        NOW IN THE NEW VERSIONS OF YOUTUBE DOWNLOADER YOU NEED TO ADD THIS TO THE POPEN FUNCTION
+        add this to Popen
+        creationflags=subprocess.CREATE_NO_WINDOW

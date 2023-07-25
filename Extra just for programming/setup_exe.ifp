@@ -1,0 +1,337 @@
+﻿
+[Header]
+ProjectFileVersion = 1.1
+[General]
+Program name = Youtube Downloader
+Program version = 8.0
+Windows XP = 0
+Windows Server 2003 = 1
+Windows Vista = 0
+Windows Server 2008 = 1
+Windows 7 = 1
+Windows 8 = 1
+Windows 10 = 1
+Windows Server 2016 = 1
+Windows Server 2019 = 1
+Windows Server 2022 = 1
+Windows 11 = 1
+DoNotCheckOS = 0
+Company name = Pado
+Website = https://github.com/PadoTheOriginal/YoutubeDownloader
+SFA = 1
+DFA = 1
+Comp = 1
+[Graphics]
+Wizard image = <main>
+Header image = D:\Projects\YoutubeDownloader\YtExtraFiles\YtDownloader.png
+Show Label = 1
+VisualStylesEnabled = 1
+[Files]
+Installation path = <ProgramFiles>\<Company>\<AppName>\
+Autcip = 1
+[Uninstall]
+Vwau = 0
+Website = https://
+Include uninstaller = 1
+Uninstaller filename = Uninstall Youtube Downloader
+UseCustomDisplayIcon = 0
+CustomDisplayIcon = <InstallPath>\
+[Licence]
+Licence dialog = 0
+[Finish]
+Sart program = 1
+Reboot computer = 0
+Program = <InstallPath>\Youtube Downloader.exe
+ProgramArguments = 
+[Shortcuts]
+Allowtc = 1
+Shortcut path = <Company>\<AppName>\
+[Serialoptions]
+Allows = 0
+Number = 1000
+Mask = #####-#####-#####-#####
+[SplashScreen]
+Image = 
+Sound = 
+Time = 2
+PlaySound = 0
+Allow = 0
+[Build]
+File = D:\Projects\YoutubeDownloader\Extra just for programming\YoutubeDownloaderSetup.exe
+SetupIconPath = D:\Projects\YoutubeDownloader\YtExtraFiles\YtDownloader.ico
+UninstallIconPath = D:\Projects\YoutubeDownloader\YtExtraFiles\YtDownloader.ico
+CompressionMethod = 0
+CompressionLevel = 2
+[Updater]
+Allow = 0
+1 = <AppName>
+2 = <AppVersion>
+3 = http://
+4 = http://
+5 = http://
+6 = Update
+Language = 0
+RunProg = 
+RunProgs = 0
+Execdlls = 0
+[Languages]
+2
+10
+[Files/Dirs]
+D:\Projects\YoutubeDownloader\dist\main\_asyncio.pyd
+62.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_brotli.cp311-win_amd64.pyd
+732 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_bz2.pyd
+81.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_cffi_backend.cp311-win_amd64.pyd
+177.5 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_ctypes.pyd
+120.9 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_decimal.pyd
+245.9 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_elementtree.pyd
+123.9 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_hashlib.pyd
+62.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_lzma.pyd
+154.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_multiprocessing.pyd
+32.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_overlapped.pyd
+48.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_queue.pyd
+30.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_socket.pyd
+76.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_sqlite3.pyd
+115.9 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_ssl.pyd
+155.9 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\_uuid.pyd
+23.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-console-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-datetime-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-debug-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-errorhandling-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-file-l1-1-0.dll
+16.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-file-l1-2-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-file-l2-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-handle-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-heap-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-interlocked-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-libraryloader-l1-1-0.dll
+13.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-localization-l1-2-0.dll
+15.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-memory-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-namedpipe-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-processenvironment-l1-1-0.dll
+13.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-processthreads-l1-1-0.dll
+14.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-processthreads-l1-1-1.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-profile-l1-1-0.dll
+12.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-rtlsupport-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-string-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-synch-l1-1-0.dll
+14.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-synch-l1-2-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-sysinfo-l1-1-0.dll
+13.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-timezone-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-core-util-l1-1-0.dll
+12.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-conio-l1-1-0.dll
+13.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-convert-l1-1-0.dll
+16.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-environment-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-filesystem-l1-1-0.dll
+14.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-heap-l1-1-0.dll
+13.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-locale-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-math-l1-1-0.dll
+21.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-process-l1-1-0.dll
+13.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-runtime-l1-1-0.dll
+17.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-stdio-l1-1-0.dll
+18.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-string-l1-1-0.dll
+18.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-time-l1-1-0.dll
+15.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\api-ms-win-crt-utility-l1-1-0.dll
+13.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\base_library.zip
+1.7 MB
+zip
+D:\Projects\YoutubeDownloader\dist\main\libcrypto-1_1.dll
+3.3 MB
+dll
+D:\Projects\YoutubeDownloader\dist\main\libffi-8.dll
+34.2 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\libssl-1_1.dll
+686.3 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\pyexpat.pyd
+193.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\python3.dll
+64.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\python311.dll
+5.5 MB
+dll
+D:\Projects\YoutubeDownloader\dist\main\select.pyd
+28.4 KB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\sqlite3.dll
+1.4 MB
+dll
+D:\Projects\YoutubeDownloader\dist\main\ucrtbase.dll
+994.9 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\unicodedata.pyd
+1.1 MB
+pyd
+D:\Projects\YoutubeDownloader\dist\main\VCRUNTIME140.dll
+96.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\VCRUNTIME140_1.dll
+37.4 KB
+dll
+D:\Projects\YoutubeDownloader\dist\main\Youtube Downloader.exe
+11.9 MB
+exe
+D:\Projects\YoutubeDownloader\dist\main\YtExtraFiles\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\wheel-0.37.1.dist-info\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\websockets-11.0.3.dist-info\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\websockets\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\setuptools-65.5.0.dist-info\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\PyQt5\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\Cryptodome\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\charset_normalizer\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\certifi\
+N/A
+[Folder]
+[Licence_Begin]
+155
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil Arial;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\f0\fs20\par
+}
+ [Licence_End]
+[Registry]
+[Variables]
+[SCs]
+Startmenu
+Youtube Downloader
+<InstallPath>\Youtube Downloader.exe
+
+
+0
+Desktop
+Youtube Downloader
+<InstallPath>\Youtube Downloader.exe
+
+
+0
+[IFP_End]
+[Serials]
+[Serials_End]
+[Commands]

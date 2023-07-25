@@ -1,5 +1,6 @@
 from pyyoutube import Api
 import re
+import urllib.request
 
 # '' ""
 
@@ -35,7 +36,7 @@ def video_title(url):
 def yt_search(search, searches):
     s_links = []
     s_titles = []
-    s_thumbnail_url = []
+    s_thumbnail = []
 
     api = Api(api_key="AIzaSyDcdVmOCOABKydxtgqP7H8ucvRSpIxDnP4")
     data = api.search_by_keywords(
@@ -63,17 +64,19 @@ def yt_search(search, searches):
         else:
             s_titles.append(title)
 
-        s_thumbnail_url.append(prepare_str(video_data["snippet"]["thumbnails"]["default"]["url"]))
+        with urllib.request.urlopen(prepare_str(video_data["snippet"]["thumbnails"]["default"]["url"])) as response:
+            s_thumbnail.append(response.read())
+            
         s_links.append(f'{before_id}{video_data["id"][key]}')
 
 
-    return s_titles, s_links, s_thumbnail_url
+    return s_titles, s_links, s_thumbnail
 
 # ''
 
 
 if __name__ == "__main__":
     while True:
-        search = input("search id: ")
-        print(video_title(search))
+        search = input("search: ")
+        yt_search(search, 35)
 

@@ -1,5 +1,3 @@
-import urllib.request
-
 from PyQt5.QtWidgets import QMessageBox
 from mainGUI import *
 import os
@@ -25,6 +23,7 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
     ydl_opts = {
         "format": "bestaudio/best",
         "quiet": True,
+        "verbose": False,
         "outtmpl": queue_path,
         "postprocessors": [{
             "key": "FFmpegExtractAudio",
@@ -36,6 +35,7 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
         "continue": True,
         "nooverwrites": True,
         "no_warnings": True,
+        "noprogress": True,
         "keepvideo": False
     }
 
@@ -405,18 +405,15 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
             return 0
 
         yttitles, ytlinks, ytthumbnails = data
-        for title, link in zip(yttitles, ytlinks):
+        for title, link, thumbnail in zip(yttitles, ytlinks, ytthumbnails):
             ytsearches[title] = link
-
-        self.download_widget.show()
-
-        for title, url in zip(yttitles, ytthumbnails):
-            with urllib.request.urlopen(url) as response:
-                data = response.read()
             pixmap = QtGui.QPixmap()
-            pixmap.loadFromData(data)
+            pixmap.loadFromData(thumbnail)
             icon = QtGui.QIcon(pixmap)
             self.searchBox.addItem(icon, title)
+
+        self.searchBox.setIconSize(QtCore.QSize(70, 50))
+        self.download_widget.show()
 
     # ""
     def link_show(self, info):
