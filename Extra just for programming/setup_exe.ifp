@@ -3,7 +3,7 @@
 ProjectFileVersion = 1.1
 [General]
 Program name = Youtube Downloader
-Program version = 8.0
+Program version = 8.1
 Windows XP = 0
 Windows Server 2003 = 1
 Windows Vista = 0
@@ -252,6 +252,9 @@ dll
 D:\Projects\YoutubeDownloader\dist\main\libssl-1_1.dll
 686.3 KB
 dll
+D:\Projects\YoutubeDownloader\dist\main\main.exe
+12.2 MB
+exe
 D:\Projects\YoutubeDownloader\dist\main\pyexpat.pyd
 193.4 KB
 pyd
@@ -279,34 +282,28 @@ dll
 D:\Projects\YoutubeDownloader\dist\main\VCRUNTIME140_1.dll
 37.4 KB
 dll
-D:\Projects\YoutubeDownloader\dist\main\Youtube Downloader.exe
-11.9 MB
-exe
-D:\Projects\YoutubeDownloader\dist\main\YtExtraFiles\
-N/A
-[Folder]
-D:\Projects\YoutubeDownloader\dist\main\wheel-0.37.1.dist-info\
-N/A
-[Folder]
-D:\Projects\YoutubeDownloader\dist\main\websockets-11.0.3.dist-info\
-N/A
-[Folder]
-D:\Projects\YoutubeDownloader\dist\main\websockets\
-N/A
-[Folder]
-D:\Projects\YoutubeDownloader\dist\main\setuptools-65.5.0.dist-info\
-N/A
-[Folder]
-D:\Projects\YoutubeDownloader\dist\main\PyQt5\
-N/A
-[Folder]
-D:\Projects\YoutubeDownloader\dist\main\Cryptodome\
+D:\Projects\YoutubeDownloader\dist\main\certifi\
 N/A
 [Folder]
 D:\Projects\YoutubeDownloader\dist\main\charset_normalizer\
 N/A
 [Folder]
-D:\Projects\YoutubeDownloader\dist\main\certifi\
+D:\Projects\YoutubeDownloader\dist\main\Cryptodome\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\PyQt5\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\setuptools-65.5.0.dist-info\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\websockets\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\websockets-11.0.3.dist-info\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\wheel-0.37.1.dist-info\
 N/A
 [Folder]
 [Licence_Begin]

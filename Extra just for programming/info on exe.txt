@@ -5,4 +5,5 @@ to make sure the executable doesn't crash you have to make sure that nothing req
 -w means without a terminal window
 -i is the path for the icon of the executable
 
-pyinstaller -F -w -i ./YtExtraFiles/YtDownloader.ico main.py
+pyinstaller -F -w test.py
+pyinstaller -w main.py -i YtExtraFiles/YtDownloader.ico
