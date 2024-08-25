@@ -252,9 +252,6 @@ dll
 D:\Projects\YoutubeDownloader\dist\main\libssl-1_1.dll
 686.3 KB
 dll
-D:\Projects\YoutubeDownloader\dist\main\main.exe
-12.2 MB
-exe
 D:\Projects\YoutubeDownloader\dist\main\pyexpat.pyd
 193.4 KB
 pyd
@@ -306,6 +303,12 @@ N/A
 D:\Projects\YoutubeDownloader\dist\main\wheel-0.37.1.dist-info\
 N/A
 [Folder]
+D:\Projects\YoutubeDownloader\dist\main\YtExtraFiles\
+N/A
+[Folder]
+D:\Projects\YoutubeDownloader\dist\main\Youtube Downloader.exe
+12.3 MB
+exe
 [Licence_Begin]
 155
 {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil Arial;}}
