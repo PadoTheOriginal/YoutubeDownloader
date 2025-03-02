@@ -1,5 +1,5 @@
 Para baixar e instalar no Windows tem esse executável:
-  > [YoutubeDownloaderSetup8.1.exe](https://github.com/PadoTheOriginal/YoutubeDownloader/raw/main/Extra%20just%20for%20programming/YoutubeDownloaderSetup.exe)
+  > [YoutubeDownloaderSetup8.2.exe](https://github.com/PadoTheOriginal/YoutubeDownloader/raw/main/Extra%20just%20for%20programming/YoutubeDownloaderSetup.exe)
  
 
 Para clonar e usar o código fonte:
