@@ -1,4 +1,5 @@
 __pycache__/
+.conda/
 build/
 dist/
 .idea/

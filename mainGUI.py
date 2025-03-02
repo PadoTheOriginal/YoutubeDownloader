@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
         MainWindow.setSizePolicy(sizePolicy)
         MainWindow.setMinimumSize(QtCore.QSize(585, 430))
         MainWindow.setMaximumSize(QtCore.QSize(585, 430))
-        MainWindow.setWindowTitle("Youtube Downloader 8.1v")
+        MainWindow.setWindowTitle("Youtube Downloader 8.2v")
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("YtExtraFiles/YtDownloader.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
