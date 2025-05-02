@@ -18,17 +18,18 @@ threads = []
 # ""
 class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
 
-    file_name = "/%(title)s.%(ext)s"
+    file_name = "/%(title)s (%(height)sp).%(ext)s"
     queue_path = ""
     ydl_opts = {
         "format": "bestaudio/best",
+        "concurrent_fragments": "2", # If this is too high youtube might slow down download speeds
         "quiet": True,
         "verbose": False,
         "outtmpl": queue_path,
         "postprocessors": [{
             "key": "FFmpegExtractAudio",
             "preferredcodec": "mp3",
-            "preferredquality": "192",
+            "preferredquality": "320",
         }],
         "ffmpeg_location": "YtExtraFiles",
         "ignoreerrors": True,
@@ -557,6 +558,7 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
 
     # ""
     def remove_pp(self):
+        self.file_name = "/%(title)s (%(height)sp).%(ext)s"
         self.ydl_opts["outtmpl"] = self.queue_path + self.file_name
         try:
             del self.ydl_opts["postprocessors"]
@@ -568,37 +570,40 @@ class Ui(QtWidgets.QMainWindow, Ui_MainWindow):
     def change_quality(self, s):
         self.qualities_index = self.qualities_box.currentIndex()
         if s == 0:
-            self.ydl_opts["format"] = 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
+            self.ydl_opts["format"] = 'bestvideo+bestaudio/best'
             self.remove_pp()
 
         elif s == 1:
-            self.ydl_opts[
-                "format"] = 'bestvideo[height<=?1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=?1080][ext=mp4]'
+            self.ydl_opts["format"] = 'bestvideo*[height<=1080][ext=mp4]+bestaudio/best[height<=1080]'
             self.remove_pp()
 
         elif s == 2:
-            self.ydl_opts["format"] = 'bestvideo[height<=?720][ext=mp4]+bestaudio[ext=m4a]/best[height<=?720][ext=mp4]'
+            self.ydl_opts["format"] = 'bestvideo*[height<=720][ext=mp4]+bestaudio/best[height<=720]'
             self.remove_pp()
 
         elif s == 3:
-            self.ydl_opts["format"] = 'bestvideo[height<=?480][ext=mp4]+bestaudio[ext=m4a]/best[height<=?480][ext=mp4]'
+            self.ydl_opts["format"] = 'bestvideo*[height<=480][ext=mp4]+bestaudio/best[height<=480]'
             self.remove_pp()
 
         elif s == 4:
-            self.ydl_opts["format"] = 'bestvideo[height<=?360][ext=mp4]+bestaudio[ext=m4a]/best[height<=?360][ext=mp4]'
+            self.ydl_opts["format"] = 'bestvideo*[height<=360][ext=mp4]+bestaudio/best[height<=360]'
             self.remove_pp()
 
         elif s == 5:
-            self.ydl_opts["format"] = "worst"
+            self.ydl_opts["format"] = "worst/worstvideo+worstaudio"
             self.remove_pp()
 
-        elif s == 6:
+        if s == 6:
+            self.file_name = "/%(title)s.%(ext)s"
             self.ydl_opts["format"] = "bestaudio/best"
             self.ydl_opts["postprocessors"] = [{
                 "key": "FFmpegExtractAudio",
                 "preferredcodec": "mp3",
-                "preferredquality": "192",
+                "preferredquality": "320",
             }]
+
+
+        
 
 
 if __name__ == '__main__':
